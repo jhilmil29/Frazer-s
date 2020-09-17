@@ -146,22 +146,12 @@ h2 {
         left: 65%;
     }
 
-    .column {
-        margin: auto;
-        text-align: center;
-        float: left;
-    }
-
+    
     .card {
         margin: 10px 5px;
         border: 1px solid #ccc;
         display: block;
         width: 120px;
-    }
-
-    .container {
-        margin: auto;
-        width: fit-content;
     }
 }
 
@@ -195,21 +185,48 @@ h2 {
         left: 65%;
     }
 
-    .column {
-        margin: auto;
-        text-align: center;
-        float: left;
-    }
-
     .card {
         margin: 10px 3px;
         border: 1px solid #ccc;
         display: block;
         width: 95px;
     }
+}
 
-    .container {
-        margin: auto;
-        width: fit-content;
+@media only screen and (max-width: 480px) {
+    .head1 {
+        font-size: 1.5em;
+        margin: 0;
+        padding-top: 4% ;
+        line-height: 0;
+    }
+    
+    .head2 {
+        margin: 0;
+        font-family: 'Londrina Outline', cursive;
+        color: orangered;
+        font-size: 6em ;
+    }
+
+    .headImg {
+        width: 35%;
+        float: right;
+        position: absolute;
+        top:4% ;
+        right: 4%;
+    }
+
+    .headText {
+        font-size: 2.5vw;
+        position: relative;
+        top: 20%;
+        left: 65%;
+    }
+
+    .card {
+        margin: 10px 3px;
+        border: 1px solid #ccc;
+        display: block;
+        width: 85px;
     }
 }
