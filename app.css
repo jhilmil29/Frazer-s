@@ -224,9 +224,9 @@ h2 {
     }
 
     .card {
-        margin: 10px 3px;
+        margin: 10px 2px;
         border: 1px solid #ccc;
         display: block;
-        width: 85px;
+        width: 70px;
     }
 }
