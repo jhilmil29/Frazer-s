@@ -96,11 +96,19 @@ h2 {
 
 .footer {
     float: right;
+    position: relative;
 }
 
 .footText {
     font-size: 2.5vw;
     margin: 0;
+}
+
+.footImg {
+    width: 35%;
+    position: absolute;
+    right: 0;
+    bottom: 15%;
 }
 
 .lightgreen {
@@ -195,9 +203,9 @@ h2 {
 
 @media only screen and (max-width: 480px) {
     .head1 {
-        font-size: 1.5em;
+        font-size: 3vw;
         margin: 0;
-        padding-top: 4% ;
+        padding-top: 8% ;
         line-height: 0;
     }
     
@@ -205,7 +213,7 @@ h2 {
         margin: 0;
         font-family: 'Londrina Outline', cursive;
         color: orangered;
-        font-size: 6em ;
+        font-size: 13vw ;
     }
 
     .headImg {
@@ -224,17 +232,34 @@ h2 {
     }
 
     .card {
-        margin: 10px 2px;
+        margin: 4px 2px;
         border: 1px solid #ccc;
         display: block;
         width: 55px;
     }
 
+    .time {
+        margin: 0;
+        font-size: 2.2vw;
+    }
+
     .title {
         text-transform: uppercase;
-        font-size: 1.7vw;
+        font-size: 2.3vw;
         padding-top: 15px;
         color: orangered;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .imp {
+        text-transform: uppercase;
+        font-size: 2.2vw;
+        margin: 0;
+    }
+    
+    .desc {
+        font-size: 2.2vw;
         margin: 0;
         margin-bottom: 10px;
     }
